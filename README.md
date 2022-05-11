@@ -10,25 +10,26 @@ Steve recently earned a finance degree and promised to research the DAQO stock f
 
 
 ## Results
-In 2017, every stock returned a profit, with an average return of 67.3 percent.
-      * DQ's Total Daily Volume had the lowest volume of all the stocks, but the best return of 199.4 percent.
+ * In **2017**, every stock returned a profit, with an average return of 67.3 percent.
+
+      * DQ's Total Daily Volume had the _lowest_ volume of all the stocks, but the best return of _199.4 percent_.
       * Original Script took  0.73438 seconds
-![image](https://user-images.githubusercontent.com/104621377/167920426-28f0e71a-ed27-41db-b04b-39fc19985dde.png)
+     ![image](https://user-images.githubusercontent.com/104621377/167920426-28f0e71a-ed27-41db-b04b-39fc19985dde.png)
       * VBA Refactored Script took  0.20313 seconds
 ![image](https://user-images.githubusercontent.com/104621377/167920491-7d21db52-70a1-4471-b6ac-61cf3701b57b.png)
 
 
-In 2018, Except for ENPH and RUN, all of the stocks plummeted and also had negative returns.
-      * The average return in 2018 was -8.5 percent.
-      * DQ's price has dropped the most.
-      * Original Script took 0.78125 seconds
+ * In **2018**, Except for ENPH and RUN, all of the stocks plummeted and also had negative returns.
+     - The average return in 2018 was _-8.5 percent_.
+     - DQ's price has _dropped the most_.
+     - Original Script took 0.78125 seconds
 ![image](https://user-images.githubusercontent.com/104621377/167920649-e67e1584-a974-4a91-be1c-d04882cae778.png)
-      * VBA Refactored Script took  0.20313 seconds
+     - VBA Refactored Script took  0.20313 seconds
 ![image](https://user-images.githubusercontent.com/104621377/167920693-de5fce8b-0d0f-4283-a42d-0f5ca4185027.png)
       
 ## Summary
 
-### Refactoring
+### Code Refactoring
 
 Refactoring is the process of reducing redundancy within the code and optimizing its efficiency without compromising its functionality.
 
@@ -38,7 +39,7 @@ Refactoring is the process of reducing redundancy within the code and optimizing
   - Code that has been refactored is **cleaner** and **shorter**.
 
 #### Disadvantages 
-  - For a layman, comprehending and determining the appropriate refactoring might be** time-consuming**.
+  - For a layman, comprehending and determining the appropriate refactoring might be **time-consuming**.
   - If all possibilities are not considered, the code may become **buggy**.
       
 ### Refactoring in VBA Script
