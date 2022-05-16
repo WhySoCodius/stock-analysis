@@ -45,10 +45,9 @@ Refactoring is the process of reducing redundancy within the code and optimizing
 ### Refactoring in VBA Script
 
 #### Advantages 
-  -
-  -
-  -
+  - Reduce the loop helped is processing the data faster.
+  - Simplification of calculation to the number of rows for all ticker at once and less memory usage, rather than the calculation of all the rows for all the tickers.
 #### Disadvantages 
-  - 
-  -
-  -
+  - It increased the complexity of the code.
+  - In this Stock Analysis, the time spent creating the code took longer, but the result was a 5 second time reduction on average.
+ 
