@@ -10,22 +10,28 @@ Steve recently earned a finance degree and promised to research the DAQO stock f
 
 
 ## Results
+ ![VBA Stock Analysis](/Resources/VBA_Challenge_Comparative.png)
+
  * In **2017**, every stock returned a profit, with an average return of 67.3 percent.
 
       * DQ's Total Daily Volume had the _lowest_ volume of all the stocks, but the best return of _199.4 percent_.
-      * Original Script took  0.73438 seconds
-     ![image](https://user-images.githubusercontent.com/104621377/167920426-28f0e71a-ed27-41db-b04b-39fc19985dde.png)
-      * VBA Refactored Script took  0.20313 seconds
-![image](https://user-images.githubusercontent.com/104621377/167920491-7d21db52-70a1-4471-b6ac-61cf3701b57b.png)
+      * Original Script took  1.417969 seconds
+      
+     ![VBA Timer 2017_Old](/Resources/VBA_Challenge_Timer_2017_Old.png)
+      * VBA Refactored Script took  0.2304688 seconds
+      
+     ![VBA Timer 2017_Refactored](/Resources/VBA_Challenge_Timer_2017_Refactored.png)
 
 
  * In **2018**, Except for ENPH and RUN, all of the stocks plummeted and also had negative returns.
      - The average return in 2018 was _-8.5 percent_.
      - DQ's price has _dropped the most_.
-     - Original Script took 0.78125 seconds
-![image](https://user-images.githubusercontent.com/104621377/167920649-e67e1584-a974-4a91-be1c-d04882cae778.png)
-     - VBA Refactored Script took  0.20313 seconds
-![image](https://user-images.githubusercontent.com/104621377/167920693-de5fce8b-0d0f-4283-a42d-0f5ca4185027.png)
+     - Original Script took 1.433594 seconds
+     
+     ![VBA Timer 2018_Old](/Resources/VBA_Challenge_Timer_2018_Old.png)
+      * VBA Refactored Script took  0.2148438 seconds
+      
+     ![VBA Timer 2018_Refactored](/Resources/VBA_Challenge_Timer_2018_Refactored.png)
       
 ## Summary
 
@@ -47,7 +53,8 @@ Refactoring is the process of reducing redundancy within the code and optimizing
 #### Advantages 
   - Reduce the loop helped is processing the data faster.
   - Simplification of calculation to the number of rows for all ticker at once and less memory usage, rather than the calculation of all the rows for all the tickers.
+  - The time variance in the calculation does not vary much with the performance of the PC.
 #### Disadvantages 
   - It increased the complexity of the code.
-  - In this Stock Analysis, the time spent creating the code took longer, but the result was a 5 second time reduction on average.
+  - In this Stock Analysis, the time spent creating the code took longer, but the result was 1 second reduction in time on average.
  
